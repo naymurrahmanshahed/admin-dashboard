@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+
+:root {
+  --color-primary: #1e2be4;
+  --color-primary-variant: #0c207c;
+  --color-danger: #db3737;
+  --color-warning: #e0c738;
+  --color-success: #3acec6;
+  --color-white: #fff;
+  --color-bg: #f1f1f1;
+  --color-info-dark: #5f6c8f;
+  --color-info-light: #c6cadf;
+  --color-dark: #2c303d;
+  --color-dark-variant: #575b6d;
+  --color-light: rgba(153 160 167 / 0.18);
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding: 1.2rem;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+  --transition: all 300ms linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  font-size: 0.8rem;
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  overflow-x: hidden;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 12rem auto 21rem;
+}
+
+a {
+  color: var(--color-dark);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 0.83rem;
+}
+h4 {
+  font-size: 0.78rem;
+}
+
+h5 {
+  font-size: 0.74rem;
+}
+
+small {
+  font-size: 0.68rem;
+}
+
+.profile-photo {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.text-muted {
+  color: var(--color-info-dark);
+}
+
+p {
+  color: var(--color-dark-variant);
+}
+strong {
+  color: var(--color-dark);
+}
+
+.primary {
+  color: var(--color-primary);
+}
+
+.danger {
+  color: var(--color-danger);
+}
+
+.success {
+  color: var(--color-success);
+}
+
+.warning {
+  color: var(--color-warning);
+}
